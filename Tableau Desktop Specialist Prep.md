@@ -55,21 +55,25 @@
 ### Modify data connections 
 
 - Add a join 
-
+  - Inner 
+  - Left
+  - Right
+  - Full Outer
 - Add a blend 
-
+  - Combine data with different levels of granularity without duplication.
+  - With a blend, a primary data source is linked to a secondary data source. The data in the secondary data source will not duplicate even if linking criteria is satisfied multiple times.
+  - Data blending keeps the data sources separate and simply displays their information together.
+  - Each data source is queried independently and the results are aggregated to the appropriate level then visualized together.
 - Add a union 
+  - 
 
 ### Manage data properties 
 
 - Rename a data field 
-
 - Assign an alias to a data value 
-
 - Assign a geographic role to a data field 
-
 - Change data type for a data field (number, date, string, Boolean, etc.) 
-
+- Default : Sum
 - Change default properties for a data field (number format, aggregation, color, date format, etc.) 
 
 ## Exploring & Analyzing Data 
