@@ -65,7 +65,14 @@
   - Data blending keeps the data sources separate and simply displays their information together.
   - Each data source is queried independently and the results are aggregated to the appropriate level then visualized together.
 - Add a union 
-  - 
+  
+  - Relationships combine data at different levels of detail without introducing duplication.
+  
+  - Relationships don't duplicate data and they don't query data unless columns from that table are used in the viz.
+  
+  - Joins produce a new row each time the join criteria is met, which can duplicate data.
+  
+    
 
 ### Manage data properties 
 
@@ -75,6 +82,11 @@
 - Change data type for a data field (number, date, string, Boolean, etc.) 
 - Default : Sum
 - Change default properties for a data field (number format, aggregation, color, date format, etc.) 
+
+ [For More](https://learningtableau.com/quiz/specialist-quiz-connecting-to-preparing-data/)
+
+
+
 
 ## Exploring & Analyzing Data 
 
