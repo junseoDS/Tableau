@@ -93,21 +93,37 @@
 ###  Create basic charts 
 
 - Create a bar chart
+  - Add values and dimension
+  - Add a second dimension to view creates a stacked bar
+  - Side by side bar 
+  - Order of columns changes charts. 
 - Create a line chart 
+  - Discrete fields create header.
+  - Continuous field create axes.
 - Create a scatterplot 
+  - Scatter plots allow you to visualize the relationship between two or more measures
 - Create a map using geographic data 
+  - Edit loaction for data
+  - When the same city exists in multiple states, you need to include the state in the view.
 - Create a combined axis chart 
 - Create a dual axis chart  
+  - A dual line chart shows two diffrent measures changing a date range.
 - Create a stacked bar 
 - Create a chart to show specific values (crosstab, highlight table) 
+  - Cross tab is tax table.
+  - A hightlight table is a crosstab with a color gradient for the measure.
 
 ### Organize data and apply filters 
 
 - Create a visual group 
 - Create a group using labels 
 - Create a set 
+  - Set comes before filter.
+  - When we set a context filter, the filter happens before the set.
 - Organize dimensions into a hierarchy 
+  - Simply drag for a hierarchy
 - Add a filter to the view 
+  - 
 - Add a context filter 
 - Add a date filter 
 
