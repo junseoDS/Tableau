@@ -123,7 +123,6 @@
 - Organize dimensions into a hierarchy 
   - Simply drag for a hierarchy
 - Add a filter to the view 
-  - 
 - Add a context filter 
 - Add a date filter 
 
@@ -131,10 +130,18 @@
 
 - Add a manual or a computed sort  
 - Add a reference line or trend line 
+  - For trend line, R-squared tells you how well the line fits the data. 
+  - A value  of 1 would indicate a perfect fit.
+  - The smaller the p-value, the more confident we are that the relationship we see between the x and y  values is not just due to chance
 - Use a table calculation  
 - Use bins and histograms 
 - Create a calculated field (e.g. string, date, simple arithmetic) 
+  - split function allows us to split a string into parts
 - Add a parameter 
+  - Parameters values can be used in calculations. 
+- [For more](https://learningtableau.com/quiz/specialist-quiz-exploring-analyzing-data/)
+
+
 
 ## Sharing Insights 
 
@@ -145,7 +152,12 @@
 - Use shapes  
 - Use viz animations  
 - Change size of marks  
+  - Most important measure should be on the x and y axis, less import can be visualized with color or size
 - Select fonts 
+- Viz Animations
+  - Provide gradual transitions when change is made to visulization
+  - Transition can be sequential where one element at a time changes or simultaneous where all elemnts change together
+  - Animation options can be set at the workbook
 
 ### Create and modify a dashboard 
 
@@ -154,7 +166,16 @@
 - Add dashboard actions  
 - Modify existing dashboard layout for mobile devices 
 - Create a story using dashboards or views 
+  - Story points direct the viewer to the specific insights you want them to focus on.
 - Share a twbx as a PDF - Share a twbx as an image 
+
+[For More Quiz](https://learningtableau.com/quiz/specialist-quiz-sharing-insights/ )
+
+
+
+
+
+
 
 ## Understanding Tableau Concepts 
 
