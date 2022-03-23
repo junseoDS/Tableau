@@ -182,18 +182,45 @@
 ### Dimensions and measures 
 
 - Explain what kind of information dimensions usually contain 
+  - Dimensions at granularity to the view.
 - Explain what kind of information measures usually contain 
+  - Measures are aggregated when added to the view.
 
 ### Discrete and continuous fields 
 
 - Explain how discrete fields are displayed in Tableau 
+
+  - Pill color is blue
+  - Header
+  - Discrete dimensions are more common than continuos dimensions.
+
 - Explain how continuous fields are displayed in Tableau 
+
+  - Pill color is green
+  - Axis
+  - Continuous measures are more common than discreted measures.
+
 - Explain the difference between discrete date parts and continuous date values in Tableau 
+
+  
 
 ### Aggregation 
 
 - Explain why Tableau aggregates measures 
 - Describe how an aggregated measure changes when dimensions are added to the view 
+  - Dimensions increas the granularity (also called level of detail) of the view.
+
+
+
+[For More Quiz](https://learningtableau.com/quiz/specialist-quiz-understanding-tableau-concepts/)
+
+
+
+
+
+
+
+
 
 
 
